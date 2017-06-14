@@ -24,7 +24,7 @@ def news():
     twits = ["BBCNews", "GranadaReports", "SkyNews", "itvnews", "MENnewsdesk"]
     for index in range (len(twits)):
 # The count parameter defines how many tweets from each account you'll read            
-        tweets = api.get_user_timeline(screen_name=twits[index], count=5)
+        tweets = api.get_user_timeline(screen_name=twits[index], count=3)
         for tweet in tweets:
             clean_tweet = '%s: %s' % (      tweet['user']['screen_name'],
                                                 tweet['text'])
