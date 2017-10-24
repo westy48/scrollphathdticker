@@ -9,4 +9,6 @@ The "count" variable on lines 27 and 50 decides how many tweets you'll see from 
 
 It needs to run in Python 3, so you'll have to type "python3 scrolltwitter.py" to get it to run. Thanks to @alexmburns for reminding me about this.
 
+It also requires oauthlib and the Pimoroni one line installer for the ScrollpHat HD
+
 You'll need to get Twitter access tokens from <a href="http://apps.twitter.com">apps.twitter.com</a>.
