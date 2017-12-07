@@ -8,7 +8,6 @@ import time
 from twython import Twython
 import scrollphathd
 from scrollphathd.fonts import font5x7
-from signal import pause
 
 #Twitter authorisation keys - add your own here
 CONSUMER_KEY = 'YOUR CONSUMER KEY HERE'
@@ -55,3 +54,11 @@ while True:
                 time.sleep(0.01)
             scrollphathd.clear()
             scrollphathd.show()
+
+# The code will loop back to the start again here.
+# If you want a pause before this happens so the display isn't running
+# constantly you can include this line, where the number in brackets is
+# how many seconds you want to wait for, eg 600 is ten minutes,
+# 300 is five minutes and so on.
+
+    time.sleep(20)
