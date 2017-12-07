@@ -1,6 +1,6 @@
 # !/usr/bin/env python3
 # coding: utf-8
-# Edited to run the ticker without buttons - not tested yet!
+# Edited to run the ticker without buttons
 
 import os
 import re
